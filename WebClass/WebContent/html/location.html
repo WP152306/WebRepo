@@ -3,15 +3,25 @@
 <head>
 <meta charset="utf-8">
 <title>Insert title here</title>
-<script>
-function goPage(url){
-	location.href = url;
-}
-</script>
-</head>
 <body>
-<button onclick="goPage('http://www.google.com');">구글</button>
-<button onclick="goPage('http://www.naver.com');">네이버</button>
-<button onclick="window.open('http://www.daum.net', '_blank');">다음</button>
+<button onclick="printLocation()">Location 정보</button>
+<button onclick="goPage()">페이지이동</button>
+<p id="result"></p>
+<script>
+function printLocation() {
+	document.getElementById("result").innerHTML= location.href;
+	
+	
+	}
+	
+function goPage() {
+	location.href= "http://www.google.com";
+}
+	
+</script>
 </body>
+</head>
+
+
+
 </html>
