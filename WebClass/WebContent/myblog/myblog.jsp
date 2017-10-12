@@ -47,9 +47,31 @@
               <a class="nav-link" href="dream.jsp">Dream</a>
             </li>
           </ul>
-			<a class="text-bold text-white" style="text-decoration: none" href="/WebClass/bloglogin">Sign in</a>
-    		<span class="text-bold text-white">&nbsp; or &nbsp;</span>
-    		<a class="text-bold text-white" style="text-decoration: none" href="">Sign up</a>
+			<%-- 세션이 없는 경우 --%>
+    <%
+			UserVO user=(UserVO)session.getAttribute("user");
+			if(user==null){
+ 
+	%>
+    	<a class="text-bold text-white" style="text-decoration: none" href="/WebClass/bloglogin">Sign in</a>
+    	<span class="text-bold text-white">&nbsp; or &nbsp;</span>
+    	<a class="text-bold text-white" style="text-decoration: none" href="">Sign up</a>
+    
+	<% } else { %>
+	<%-- 세션이 있는 경우 --%>
+	    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+	    <li class="nav-item dropdown">
+	      <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	    	<%= user.getName()+ "님"%>	      </a>
+	      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
+	      	<form action="/WebClass/bloglogout" method="post">
+	      		<button type="submit" class="dropdown-item">Sign out</button>
+	       	</form>
+	      </div>
+	    </li>
+	    </ul>
+	    
+	    <% } %>
         </div>
       </div>
     </nav>
