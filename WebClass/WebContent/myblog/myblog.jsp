@@ -18,12 +18,12 @@
 
     <!-- Custom fonts for this template -->
     <link href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css" rel="stylesheet" type="text/css">
-    <link href="../css/font.css" rel="stylesheet" type="text/css">
+    <link href="/WebClass/css/font.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="../css/blog.css" rel="stylesheet">
+    <link href="/WebClass/css/blog.css" rel="stylesheet">
 
   </head>
 
@@ -206,12 +206,9 @@
  
  </script> 
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="../js/popper.js"></script>
-    <script src="../js/bootstrap.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="../js/blog.js"></script>
+    <script src="/WebClass/js/blog.js"></script>
   </body>
 
 </html>
