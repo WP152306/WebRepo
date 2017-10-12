@@ -32,20 +32,20 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="myblog.jsp">Home</a>
+        <a class="navbar-brand" href="myblog/myblog.jsp">Home</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="hobby.jsp">Hobby</a>
+              <a class="nav-link" href="myblog/hobby.jsp">Hobby</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="favorite.jsp">Favorite</a>
+              <a class="nav-link" href="myblog/favorite.jsp">Favorite</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="dream.jsp">Dream</a>
+              <a class="nav-link" href="myblog/dream.jsp">Dream</a>
             </li>
           </ul>
 			<%-- 세션이 없는 경우 --%>
