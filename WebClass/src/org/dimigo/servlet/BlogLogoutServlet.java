@@ -41,7 +41,7 @@ public class BlogLogoutServlet extends HttpServlet {
 		
 		session.invalidate();
 		
-		RequestDispatcher rd = request.getRequestDispatcher("myblog2304/home.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("myblog/home.jsp");
 		rd.forward(request, response);
 	}
 
