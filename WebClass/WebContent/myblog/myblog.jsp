@@ -78,7 +78,7 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="masthead" style="background-image: url('../image/home-bg.jpg')">
+    <header class="masthead" style="background-image: url('/WebClass/image/home-bg.jpg')">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
@@ -206,6 +206,9 @@
  
  </script> 
 
+    <!-- Bootstrap core JavaScript -->
+    <script src="/WebClass/js/popper.js"></script>
+    <script src="/WebClass/js/bootstrap.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="/WebClass/js/blog.js"></script>
