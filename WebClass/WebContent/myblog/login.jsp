@@ -20,7 +20,7 @@
 
 		<form class="form-signin" action="/WebClass/bloglogin" method="post">
 
-			<h2 class="form-signin-heading">Please Log in</h2>
+			<h2 class="form-signin-heading">Login</h2>
 			<%
 				String id = request.getParameter("id");
 			%>
