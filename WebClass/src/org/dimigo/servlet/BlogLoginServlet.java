@@ -67,7 +67,7 @@ public class BlogLoginServlet extends HttpServlet {
 	
 			session.setAttribute("user", user);
 		
-			RequestDispatcher rd =request.getRequestDispatcher("myblog/home.jsp");
+			RequestDispatcher rd =request.getRequestDispatcher("myblog/myblog.jsp");
 			rd.forward(request, response);
 		}
 	
